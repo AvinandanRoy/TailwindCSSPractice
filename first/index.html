@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/46eda60ee5.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-red-300">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%] h-[10%] mx-auto py-5">
+            <div class="">
+                <img class="w-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/2560px-Stripe_Logo%2C_revised_2016.svg.png" alt="">
+            </div>
+            <div class="md:static absolute md:min-h  bg-white md:min-h-fit min-h-[40vh] left-0 top-[-100%] md:w-auto w-full flex items-center">
+                <ul class="flex md:flex-row flex-col md:items-center items-start md:gap-[4vw] gap-8 mx-10">
+                    <li><a class="hover:text-gray-500" href="">Home</a></li>
+                    <li><a class="hover:text-gray-500" href="">Blog</a></li>
+                    <li><a class="hover:text-gray-500" href="">Portfolio</a></li>
+                    <li><a class="hover:text-gray-500" href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign In</button>
+                <i class="fa-solid fa-bars "></i>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
